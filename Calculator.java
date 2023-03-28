@@ -12,6 +12,7 @@ public class Calculator {
         char operation = getOperation();
         int result = calc(num1,num2,operation);
         System.out.println("Result is: "+result);
+        scanner.close();
     }
 
     public static int getInt(){
